@@ -24,7 +24,8 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    
+    // FIrst method
     public IActionResult GetPerson(Person person)
     {
         try
