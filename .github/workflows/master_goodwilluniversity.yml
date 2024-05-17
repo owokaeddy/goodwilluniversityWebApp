@@ -61,6 +61,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'goodwilluniversity'
-          slot-name: 'Production'
+          slot-name: 'uat'
           package: .
           
